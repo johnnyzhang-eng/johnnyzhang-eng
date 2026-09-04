@@ -1,11 +1,11 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customGradientList=0,30,41,59|55,124,45,18|100,194,65,12&height=210&section=header&text=Johnny%20Zhang&fontAlignY=36&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=DATA%20%2F%20AI%20ENGINEERING%20%E2%80%A2%20PIPELINES%20%E2%80%A2%20AND%20THE%20INSTRUMENTS%20THAT%20CHECK%20THEM&descAlignY=60&descSize=13&descColor=fdba74" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customGradientList=0,15,23,42,1|45,124,45,18,1|100,194,65,12,1&height=210&section=header&text=Johnny%20Zhang&fontAlignY=36&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=DATA%20%2F%20AI%20ENGINEERING%20%E2%80%A2%20PIPELINES%20%E2%80%A2%20AND%20THE%20INSTRUMENTS%20THAT%20CHECK%20THEM&descAlignY=60&descSize=13&descColor=fdba74" />
 
 <img src="https://img.shields.io/badge/ROLE-Data_%2F_AI_Engineering-1e293b?style=for-the-badge&labelColor=0f172a&color=c2410c" />
 <img src="https://img.shields.io/badge/FOCUS-Measurement_Validity-1e293b?style=for-the-badge&labelColor=0f172a&color=b45309" />
-<img src="https://img.shields.io/badge/GRADUATING-June_2027-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
-<img src="https://img.shields.io/badge/BASE-Shanghai_%C2%B7_Hangzhou-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
+<img src="https://img.shields.io/badge/GRAD-June_2027-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
+<img src="https://img.shields.io/badge/BASE-Shanghai_%2F_Hangzhou-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
 
 **[`English`](#i-mostly-build-the-second-kind) · [`中文`](#中文)**
 
