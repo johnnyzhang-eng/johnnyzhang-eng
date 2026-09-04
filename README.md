@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:7c2d12,100:c2410c&height=200&section=header&text=Johnny%20Zhang&fontSize=62&fontColor=ffffff&fontAlignY=34&desc=DATA%20%2F%20AI%20ENGINEERING%20%E2%80%94%20PIPELINES%2C%20AND%20THE%20INSTRUMENTS%20THAT%20CHECK%20THEM&descSize=14&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:7c2d12,100:c2410c&height=200&section=header&text=Johnny%20Zhang&fontSize=62&fontColor=ffffff&fontAlignY=34&desc=DATA%20%2F%20AI%20ENGINEERING%20%E2%80%94%20PIPELINES%2C%20AND%20THE%20INSTRUMENTS%20THAT%20CHECK%20THEM&descSize=14&descAlignY=55" />
 
 <img src="https://img.shields.io/badge/ROLE-Data_%2F_AI_Engineering-1e293b?style=for-the-badge&labelColor=0f172a&color=c2410c" />
 <img src="https://img.shields.io/badge/FOCUS-Measurement_Validity-1e293b?style=for-the-badge&labelColor=0f172a&color=b45309" />
