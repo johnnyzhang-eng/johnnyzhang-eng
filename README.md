@@ -11,7 +11,8 @@
 <img src="https://img.shields.io/badge/GRAD-June_2027-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
 <img src="https://img.shields.io/badge/BASE-Shanghai_%2F_Hangzhou-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
 
-**[`English`](#i-mostly-build-the-second-kind) · [`中文`](#中文)**
+做数据 / AI 工程：搭数据管道，也做用来判断管道产出是否可信的检查工具。<br>
+2027 年 6 月毕业，在找上海、杭州的数据开发 / 数仓岗位，实习和校招都考虑。
 
 </div>
 
@@ -24,7 +25,6 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 
@@ -53,7 +53,7 @@
 
 ---
 
-### I mostly build the second kind
+### Mostly, I build the instruments
 
 Most of what ships here exists because a number I trusted turned out to be wrong, and I wanted the next one
 to fail loudly instead of quietly.
@@ -113,64 +113,5 @@ actually in the denominator, not by improving the model.
 
 Graduating **June 2027**. Looking for data / AI engineering roles — Shanghai, Hangzhou, or remote-friendly.
 Comfortable working entirely in English.
-
-<a href="mailto:jingheng_zhang@outlook.com"><img src="https://img.shields.io/badge/jingheng__zhang@outlook.com-c2410c?style=for-the-badge&logo=maildotru&logoColor=white" /></a>
-
----
-
-## 中文
-
-我做的大多是第二种。这里的东西基本都源于同一件事：**某个我信过的数字后来被证明是错的**，
-于是我想让下一个错数响一点地失败，而不是安静地混过去。
-
-<table>
-<tr><td width="50%" valign="top">
-
-#### 🔬 [instrument-first](https://github.com/johnnyzhang-eng/instrument-first)
-
-先验仪器，再给被测系统记账。数据 / ML 工程的测量效度清单。
-**每一条都是我先归错因、后来才查出真因的真实事故。**
-
-</td><td width="50%" valign="top">
-
-#### 🛡️ [guardrails-toolkit](https://github.com/johnnyzhang-eng/guardrails-toolkit)
-
-把一次教训变成不会静默腐烂的闸口。semgrep 规则、Soda 质检、三个 lint 闸，
-判定器被离线已知答案自测锁住 —— **判官自己漂移了 CI 会先叫。**
-
-</td></tr>
-<tr><td width="50%" valign="top">
-
-#### 📉 [bili_stock](https://github.com/johnnyzhang-eng/bili_stock)
-
-一个**拒绝运行**的回测框架：没声明随机对照基线、样本外切分和真实双边成本，就报错中止。
-**它证伪了六类策略，包括我希望是真的那几类。**
-
-</td><td width="50%" valign="top">
-
-#### 📄 [resume-audit](https://github.com/johnnyzhang-eng/resume-audit)
-
-量得出简历哪里有问题，而不只是给意见 —— 版面度量、折行标定、文案 lint。
-**每条规则都带着支撑它的那次实测。**
-
-</td></tr>
-</table>
-
-### 工作
-
-在一条覆盖十个市场的生产菜单 OCR 与数据管道上合并了 **188 个 PR** —— 抽取、品牌实体匹配、数仓写入路径、成本。
-最值得一提的三个：
-
-| | 它拦住了什么 |
-|---|---|
-| **一个 CI 闸** | 断言 promote 步骤**真的成功了**。在此之前，连续五次失败的运行全部报绿。 |
-| **一个质量闸** | 起因是一次 16 小时的运行产出 0% 配对率，一个月没人发现。它**故意 fail-open** —— 质量告警去中断管线，会造出一个比原问题更糟的失败模式。 |
-| **一个传输资格闸** | batch 接口在钉住的模型上返回 404，而所有只读检查——模型列表、能力标记、batch 列表——**全部返回 200，只有 create 拒绝**。 |
-
-**我在意分母。** 我经历过的覆盖率争论，绝大多数最后是靠搞清楚分母里到底装了什么解决的，不是靠把模型调好。
-
-### 现在
-
-**2027 年 6 月毕业**，找数据 / AI 工程方向的岗位 —— 上海、杭州，或可远程。全英文工作环境没问题。
 
 <a href="mailto:jingheng_zhang@outlook.com"><img src="https://img.shields.io/badge/jingheng__zhang@outlook.com-c2410c?style=for-the-badge&logo=maildotru&logoColor=white" /></a>
