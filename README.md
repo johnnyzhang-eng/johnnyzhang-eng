@@ -12,7 +12,8 @@
 <img src="https://img.shields.io/badge/BASE-Shanghai_%2F_Hangzhou-1e293b?style=for-the-badge&labelColor=0f172a&color=475569" />
 
 做数据 / AI 工程：搭数据管道，也做用来判断管道产出是否可信的检查工具。<br>
-2027 年 6 月毕业，在找上海、杭州的数据开发 / 数仓岗位，实习和校招都考虑。
+2027 年 6 月毕业，在找上海、杭州的数据开发 / 数仓岗位，实习和校招都考虑。<br>
+在七牛云 1024 实训营的开源项目 Windup 里贡献排第二，合并了 99 个 PR。
 
 </div>
 
@@ -68,10 +69,11 @@ checklist for data/ML work. **Every entry is a real failure I first booked to th
 
 </td><td width="50%" valign="top">
 
-#### 🛡️ [guardrails-toolkit](https://github.com/johnnyzhang-eng/guardrails-toolkit)
+#### 🛡️ [data-guardrails](https://github.com/johnnyzhang-eng/data-guardrails)
 
-Turn a lesson learned into a guardrail that cannot silently rot. Semgrep rules, Soda checks, and lint gates
-locked by offline known-answer selftests — **the arbiter can't drift without CI noticing.**
+Five layers of checks for data work — raw-data quality, report-vs-raw integrity, analytical claims, code
+recurrence, decisions. Each checker is locked by known-answer selftests that **run in CI**, so it can't drift
+silently. Examples use synthetic food-delivery data.
 
 </td></tr>
 <tr><td width="50%" valign="top">
@@ -92,8 +94,13 @@ copy lint. **Every rule carries the measurement that justifies it.**
 </table>
 
 Also here: [investment_research](https://github.com/johnnyzhang-eng/investment_research_2026_05_24) ·
-[polypost](https://github.com/johnnyzhang-eng/polypost) ·
-[windup-asset-lab](https://github.com/johnnyzhang-eng/windup-asset-lab)
+[polypost](https://github.com/johnnyzhang-eng/polypost)
+
+### Open source
+
+#2 contributor to [Windup](https://github.com/1024XEngineer/Windup), a 2D game-character generator from
+Qiniu's 1024 engineering camp: **99 merged PRs** (Aug–Sep 2026) across the generation pipeline, 3D-to-2D
+rendering and job orchestration, through the v1.0.0 release.
 
 ### Day job, so far
 
